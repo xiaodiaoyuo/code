@@ -29,6 +29,21 @@ public class simply {
             System.out.println("key="+entry.getKey()+" and value="+entry.getValue());
         }
 
+        Integer number1 = new Integer(7);
+        Integer number2 = new Integer(7);
+        if(number1==number2)
+        {
+            System.out.println("number====1==");
+        }
+        Integer number3 = 129;
+        Integer number4 = 129;
+        if(number3==number4)
+        {
+            System.out.println("number===2===");
+        }else{
+            System.out.println("=============not equal");
+        }
+
     }
 
 }
