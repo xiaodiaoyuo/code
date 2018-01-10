@@ -44,6 +44,30 @@ public class simply {
             System.out.println("=============not equal");
         }
 
+
+
     }
+
+
+
+    public static int sum(int v1, int v2) {
+        return v1+v2;
+    }
+    //对float求和
+    public static float sum(float v1, float v2) {
+        return v1+v2;
+    }
+
+    //对double求和
+    public static double sum(double v1, double v2) {
+        return v1+v2;
+    }
+
+    //正确
+    public static double sum() {
+        return 0L;
+    }
+
+
 
 }
