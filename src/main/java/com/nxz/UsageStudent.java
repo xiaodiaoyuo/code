@@ -1,5 +1,4 @@
-import org.testng.annotations.Test;
-
+package com.nxz;
 
 public class UsageStudent {
 
@@ -11,7 +10,7 @@ public class UsageStudent {
 
         System.out.println(xiaoming.getAge());
 
-        simply  simplytest=new simply();
+        Simply simplytest=new Simply();
         System.out.println("============="+simplytest.sum(23,34));
         System.out.println("============="+simplytest.sum(12.33f,12.33f));
         System.out.println("============="+simplytest.sum(23.76,34.21));
@@ -21,8 +20,6 @@ public class UsageStudent {
 
 
     }
-
-    @Test
     public  void queryBanksTest(){
         String cardNoPlain = "6214921201533954";
         System.out.println("2212222");
