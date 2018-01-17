@@ -3,12 +3,22 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
-
+import java.util.Date;
 /**
  * Created by Administrator on 2017/12/26 0026.
  */
-public class simply {
+public  class simply {
+
+    static int idage;
+    static  final  int idagenew=23;
+
+
+
     public static void main(String[] args) throws IOException, TimeoutException {
+        idage=12;
+
+        System.out.println("idage======="+idage);
+        System.out.println("idagenew======"+ idagenew);
         System.out.println("----1---------");
         Map<String,String> map=new HashMap<String, String>();
         map.put("name","niexz");
@@ -45,6 +55,10 @@ public class simply {
         }
 
 
+        //String date = new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new java.util.Date(Unix timestamp * 1000))
+
+
+
 
     }
 
@@ -67,6 +81,7 @@ public class simply {
     public static double sum() {
         return 0L;
     }
+
 
 
 
