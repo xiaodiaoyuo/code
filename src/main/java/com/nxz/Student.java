@@ -38,3 +38,12 @@ public class Student {
         this.password = password;
     }
 }
+
+class IdCard{
+    protected Long cardNo;
+
+
+}
+class Person{
+    public String name;
+}

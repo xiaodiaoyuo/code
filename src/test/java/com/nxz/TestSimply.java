@@ -10,7 +10,12 @@ public class TestSimply {
 
     @Test
     public void test(){
-        System.out.println(Simply.sum(1,2));
+        Simply s=new Simply();
+        System.out.println(s.sum(1,2));
+        String s1 = "asdd33dfsdaf33ddsd55fdd3dssf4343sdf455ddsdddh565gggh55ddhg";
+
+
+
     }
 
     @Test
