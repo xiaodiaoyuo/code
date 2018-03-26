@@ -11,6 +11,7 @@ public class TestNG {
     public static class RandomEmailGenerator {
 
         public static String generate() {
+            System.out.println("sdf");
             return "feedback@yiibai.com";
         }
 
