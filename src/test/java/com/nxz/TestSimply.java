@@ -1,26 +1,57 @@
 package com.nxz;
 
-import org.junit.Test;
+
+import org.testng.annotations.*;
+
+
 
 /**
  * Created by Administrator on 2018/1/17 0017.
  */
 public class TestSimply {
+    @BeforeSuite()
+    public void beforeSuite() {
+        System.out.println("@BeforeSuite");
+    }
+
+    @AfterSuite()
+    public void afterSuite() {
+        System.out.println("@AfterSuite");
+    }
+
+    @BeforeTest()
+    public void beforeTest() {
+        System.out.println("@BeforeTest");
+    }
+
+    @AfterTest()
+    public void afterTest() {
+        System.out.println("@AfterTest");
+    }
+
 
 
     @Test
     public void test(){
         Simply s=new Simply();
-        System.out.println(s.sum(1,2));
         String s1 = "asdd33dfsdaf33ddsd55fdd3dssf4343sdf455ddsdddh565gggh55ddhg";
-
-
-
+        System.out.println("--------自动化test1--------");
     }
 
     @Test
     public void test1(){
-        System.out.println(Simply.sum(1,2));
+        System.out.println("test2--------------"+Simply.sum(1,2));
     }
+    @Test
+    public  void test2(){
+        Simply t2 =new Simply();
+        int nt2= t2.sum(999,888);
+        System.out.println("nt2======"+nt2);
+
+    }
+
+
+
+
 
 }
