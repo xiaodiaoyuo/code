@@ -12,6 +12,21 @@ import java.io.IOException;
  */
 public class ExcelIn {
     public static void main(String[] args) throws BiffException, IOException {
+
+        String p="A1#B2#C3&&&E4#D5#F6";
+        String[] myList =p.split("&&&");
+        System.out.println("myList====="+myList.length);
+        for(String k :myList){
+            System.out.println("k================"+k);
+            if(k.indexOf("|")!=0){
+                String[] arrk=k.split("#");
+                for(String l :arrk){
+                    System.out.println("l============"+l);
+                }
+
+            };
+
+        }
         File file = new File("e:/1.xls");
         Workbook rwb = Workbook.getWorkbook(file);
         Sheet rs = rwb.getSheet(0);// 或者rwb.getSheet(0)
@@ -28,8 +43,6 @@ public class ExcelIn {
                 String birthday = rs.getCell(j++, i).getContents();
                 System.out.println(" name:" + name + ",sex:" + sex + ", birthday:" + birthday);
             }
-
-
         }
     }
 
