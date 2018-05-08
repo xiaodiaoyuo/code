@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- @BeforeSuite -->
+<suite name="TestAll">
+
+    <!-- @BeforeTest -->
+    <test name="case1">
+        <classes>
+            <class name="com.nxz.TestSimply">
+            <methods>
+                <include name="test"></include>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+    <test name="case2">
+        <classes>
+            <class name="com.nxz.TestSimply">
+                <methods>
+                    <include name="test1"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+
+</suite>
