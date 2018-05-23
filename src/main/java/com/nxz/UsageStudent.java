@@ -13,7 +13,7 @@ public class UsageStudent {
         xiaoming.setName("聂晓珍");
 
         System.out.println(xiaoming.getAge());
-
+        System.out.println("=========="+xiaoming.getPassword());
         Simply simplytest=new Simply();
         System.out.println("============="+simplytest.sum(23,34));
         System.out.println("============="+simplytest.sum(12.33f,12.33f));
