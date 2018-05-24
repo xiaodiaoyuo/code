@@ -3,6 +3,7 @@ package runoob;
 /**
  * Created by jany.nie on 2018/5/23.
  * 关于可变参数
+ * 生成文档ee
  *@version 1.0.0
  *
  *
