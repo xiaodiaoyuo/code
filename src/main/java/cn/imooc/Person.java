@@ -3,7 +3,7 @@ package cn.imooc;
 /**
  * Created by jany.nie on 2018/5/24.
  */
-public class Person {
+ class Person {
 //    创建Person类
 //    属性：名字（name），年龄（age）,年级（ grade）
 //    方法：1、无参无返回值的student方法，描述为：我是一名学生！
@@ -24,7 +24,7 @@ public class Person {
      return sexValue;
     }
     public void mySelf(){
-        System.out.println("我叫"+name+",年龄为"+age+",年级："+grade);
+        System.out.println("我叫"+this.name+",年龄为"+this.age+",年级："+this.grade);
     }
 
 
