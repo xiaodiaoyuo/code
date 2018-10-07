@@ -13,7 +13,7 @@ public class ThreadTest extends Thread{
      for(int i=1;i<=20;i++){
          System.out.println("线程"+getName()+"is runing"+i);
          try {
-             ThreadTest.sleep(1);
+             ThreadTest.sleep(3000);
          } catch (InterruptedException e) {
              e.printStackTrace();
          }
