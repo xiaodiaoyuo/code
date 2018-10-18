@@ -30,7 +30,7 @@ public class ExcelIn {
         long s1=100230;
         System.out.println(s1);
 
-//        File file = new File("e:/demo_test.xls");
+//        File file = new File("e:/demo_test.xlsx");
 //        Workbook rwb = Workbook.getWorkbook(file);
 //        Sheet rs = rwb.getSheet(0);// 或者rwb.getSheet(0)
 //        int clos = rs.getColumns();// 得到所有的列
@@ -47,7 +47,7 @@ public class ExcelIn {
 //                System.out.println(" name:" + name + ",sex:" + sex + ", birthday:" + birthday);
 //                j=5;
 //            }
-//        }5
-    }
+//        }
+  }
 
 }

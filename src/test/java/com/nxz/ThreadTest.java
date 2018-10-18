@@ -10,7 +10,7 @@ public class ThreadTest extends Thread{
     }
     public void run() {
         // compute primes larger than minPrime
-     for(int i=1;i<=20;i++){
+     for(int i=1;i<=100;i++){
          System.out.println("线程"+getName()+"is runing"+i);
          try {
              ThreadTest.sleep(3000);

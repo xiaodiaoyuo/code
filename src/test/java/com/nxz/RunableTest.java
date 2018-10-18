@@ -20,6 +20,7 @@ public class RunableTest implements  Runnable{
         Thread p2=new Thread(t);
         p1.start();
         p2.start();
+
     }
 
 
