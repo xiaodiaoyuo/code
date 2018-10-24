@@ -10,5 +10,10 @@ public class demo1Test {
         Student xiaoming = new Student();
         xiaoming.setAge(23);
         System.out.println(xiaoming.getAge());
+        String str="PU01KSKSSS";
+        System.out.println( str.substring(0,2).equals("PU"));
+
+
+
     }
 }
