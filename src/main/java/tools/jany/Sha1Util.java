@@ -35,7 +35,7 @@ public class Sha1Util {
         System.out.println("timestamp="+timestamp);
         String disableFaceCert = "1";
         String systemId = "young";
-        String userId = "683540128";
+        String userId = "983435379";
         String secretKey = "ye2uu03ohy4d5ayhqkwa9broqq1gvnzynoxewu0gtx33r4vkpfnv504ccwk1oqwq";
         String data = (disableFaceCert + systemId + timestamp + userId + secretKey);
         String sign =Sha1Util.sha1(data);

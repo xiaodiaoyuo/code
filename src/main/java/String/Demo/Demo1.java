@@ -28,5 +28,7 @@ public class Demo1 {
         buffer.append("sfsdfdsf");
         buffer.insert(2,"222");
         System.out.println(buffer);
+
+
     }
 }
