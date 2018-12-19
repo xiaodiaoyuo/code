@@ -135,7 +135,7 @@ public class BufferDemo {
           * @return 返回文件内容
           */
     public static String txt2String(){
-        File file = new File("D:/Users/jany.nie/Desktop/puanduserid.txt");
+        File file = new File("D:\\Users\\jany.nie\\Desktop\\bre.txt");
         StringBuilder result = new StringBuilder();
         try{
             BufferedReader br = new BufferedReader(new FileReader(file));//构造一个BufferedReader类来读取文件
@@ -154,7 +154,9 @@ public class BufferDemo {
         return result.toString();
     }
 
-
+    public static void main(String[] args) {
+        txt2String();
+    }
 
 
 

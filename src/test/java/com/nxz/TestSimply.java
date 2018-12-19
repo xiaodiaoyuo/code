@@ -32,7 +32,7 @@ public class TestSimply {
 
 
 
-    @Test
+    @Test(timeOut = 60000)
     public void test(){
         Simply s=new Simply();
         String s1 = "asdd33dfsdaf33ddsd55fdd3dssf4343sdf455ddsdddh565gggh55ddhg";
