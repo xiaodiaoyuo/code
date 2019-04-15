@@ -1,4 +1,4 @@
-package tools.jany;
+package tools;
 
 /**
  * Created by jany.nie on 2018/10/24.
@@ -40,5 +40,8 @@ public class Sha1Util {
         String data = (disableFaceCert + systemId + timestamp + userId + secretKey);
         String sign =Sha1Util.sha1(data);
         System.out.println("sign=" + sign);
+
+
+        String url="https://mi.vipsfin.com/realname_authentication.html?req_systemId=young&disableFaceCert=1&timestamp="+timestamp+"&sign="+sign+"&callbackUrl=https%3a%2f%2fmi.vipsfin.com%2frealname_level.html";
     }
 }

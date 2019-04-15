@@ -2,7 +2,7 @@ package test;
 
 
 import org.testng.annotations.Test;
-import tools.jany.Log;
+import tools.Log;
 
 /**
  * Created by jany.nie on 2018/11/29.
