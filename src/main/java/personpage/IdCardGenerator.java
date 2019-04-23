@@ -3644,8 +3644,8 @@ public class IdCardGenerator {
     }
     public static void main(String[] args) {
         IdCardGenerator g = new IdCardGenerator();
-        for (int i = 0; i < 200; i++) {//需要几个，就用几个for循环
-            contentToTxt("E:\\IdCardGeneratorNEW.txt",g.generate()); //将生成的身份证存入F下的IdCardGenerator.txt里面
+        for (int i = 0; i < 50; i++) {//需要几个，就用几个for循环
+            contentToTxt("E:\\IdCardnew1.txt",g.generate()); //将生成的身份证存入F下的IdCardGenerator.txt里面
         }
     }
 }
